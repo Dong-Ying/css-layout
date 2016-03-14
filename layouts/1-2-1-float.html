@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .container .content {
+            float: left;
+
+            width: 500px;
+            height: 300px;
+            border: 8px solid lightskyblue;
+            border-radius: 10px;
+        }
+
+        .container .side {
+            float: right;
+
+            width: 240px;
+            height: 300px;
+            border: 8px solid lightskyblue;
+            border-radius: 10px;
+        }
+
+        .container {
+            overflow: auto;
+        }
+
+        header, .container, footer {
+            font-size: 28px;
+            text-align: center;
+            width: 780px;
+            margin: 20px auto;
+        }
+
+        header, footer {
+            height: 150px;
+            border: 8px solid mediumpurple;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<header> Page Header</header>
+<div class="container">
+    <div class="content">Page Content</div>
+    <div class="side">Side bar</div>
+</div>
+<footer> Page Footer</footer>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .div1, .div2 {
+            height: 50px;
+            margin: 10px;
+        }
+
+        .with-clear,.without-clear  {
+            overflow: auto;
+        }
+
+        .div1 {
+            width: 100px;
+            float: left;
+            border: 3px solid #8AC007;
+        }
+
+        .div2 {
+            width: 500px;
+            border: 3px solid red;
+        }
+
+        .with-clear .div2 {
+            clear: left;
+        }
+    </style>
+</head>
+<body>
+
+<div class="without-clear">
+    <h2>Without clear</h2>
+
+    <div class="div1">div 1</div>
+    <div class="div2">div 2, div 2, div 2, div 2, div 2, div 2, div 2, div 2</div>
+</div>
+
+<div class="with-clear">
+    <h2>Using clear</h2>
+
+    <div class="div1">div 1</div>
+    <div class="div2">div 2, div 2, div 2, div 2, div 2, div 2, div 2, div 2</div>
+</div>
+</body>
+</html>

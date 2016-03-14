@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        header, .container, footer {
+            margin: 20px auto;
+
+            width: 780px;
+            font-size: 28px;
+            text-align: center;
+        }
+
+        .container {
+            overflow: auto;
+        }
+
+        .container .content {
+            float: left;
+
+            width: 500px;
+            overflow: auto;
+        }
+
+        .container .side {
+            float: right;
+
+            width: 240px;
+        }
+
+        .container .content .column1 {
+            float: left;
+
+            height: 150px;
+            width: 45%;
+        }
+
+        .container .content .column2 {
+            float: right;
+
+            height: 150px;
+            width: 45%;
+        }
+
+        header, footer {
+            height: 150px;
+            border: 8px solid mediumpurple;
+            border-radius: 15px;
+        }
+
+        .container .content div {
+            border: 8px solid lightskyblue;
+            border-radius: 10px;
+        }
+
+        .container .content .banner {
+            height: 100px;
+            margin-bottom: 20px;
+        }
+
+
+        .container .side .side1 {
+            height: 130px;
+            margin-bottom: 10px;
+            border: 8px solid lightskyblue;
+            border-radius: 10px;
+        }
+
+        .container .side .side2 {
+            height: 130px;
+            border: 8px solid lightskyblue;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header> Page Header</header>
+<div class="container">
+    <div class="content">
+        <div class="banner">Banner</div>
+        <div class="column1">Column 1</div>
+        <div class="column2">Column 2</div>
+    </div>
+    <div class="side">
+        <div class="side1">
+            Side bar 1
+        </div>
+        <div class="side2">
+            Side bar 2
+        </div>
+    </div>
+</div>
+<footer> Page Footer</footer>
+
+</body>
+</html>
